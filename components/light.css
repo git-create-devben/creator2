@@ -1,0 +1,46 @@
+/* Add these styles to your CSS or use inline styles in your components */
+
+.lightbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.default-view {
+  position: relative;
+}
+
+.max-h-default-view {
+  max-width: 100%; /* Adjust for responsiveness */
+  height: auto;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow thumbnails to wrap to the next line on small screens */
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.thumbnail {
+ 
+  margin: 5px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.thumbnail:hover {
+  opacity: 0.7;
+}
+
+.thumbnail.selected {
+  border: 2px solid #007bff; /* Add a border or any other styling for the selected thumbnail */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .thumbnail {
+    width: 40px; /* Adjust thumbnail size for smaller screens */
+    height: 40px;
+  }
+}

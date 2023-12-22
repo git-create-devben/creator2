@@ -18,11 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex md:justify-center flex-col w-[100vw] h-full  md:gap-24 md:flex-row ">
-          <div className="flex-none  hidden md:block">
+        <div className="flex md:justify-center flex-col w-[100%] h-[100vh]  md:gap-18 md:flex-row ">
+          <div className="flex-none  hidden md:block ">
             <Desktopnav />
           </div>
-          <div className="md:h-[100vh]">
+          <div className="h-[100vh] overflow-auto child">
             {children}
           </div>
         </div>
