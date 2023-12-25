@@ -1,6 +1,7 @@
 import React from "react";
 // import img from "../../public/assets/bg.jpg"
 import Image from "next/image";
+import { Button } from "../ui/button";
 export default function Packages() {
   const img =
     "https://frenify.com/work/envato/frenify/html/makeup/1/img/package1.jpg";
@@ -51,6 +52,13 @@ export default function Packages() {
           <h4 className=" mt-6 text-center text-sm text-[#eeeeee8e]">
             Total <b>$99.00</b>
           </h4>
+          <div className=" mt-8 flex justify-center items-center">
+            <hr className="w-16 text-sm text-[#eeeeee8e]" />
+            <Button className="rounded-l-none w-44 rounded-r-none bg-[#371352]">
+              Book Online
+            </Button>
+            <hr className="w-16" />
+          </div>
         </div>
         <div className="bg-[#0f050e] h-[45rem]">
           <Image
@@ -82,6 +90,13 @@ export default function Packages() {
           <h4 className=" mt-6 text-center text-sm text-[#eeeeee8e]">
             Total <b>$99.00</b>
           </h4>
+          <div className=" mt-8 flex justify-center items-center">
+            <hr className="w-16 text-sm text-[#eeeeee8e]" />
+            <Button className="rounded-l-none w-44 rounded-r-none bg-[#371352]">
+              Book Online
+            </Button>
+            <hr className="w-16" />
+          </div>
         </div>
       </main>
     </React.Fragment>

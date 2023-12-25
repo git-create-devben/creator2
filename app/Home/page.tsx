@@ -17,7 +17,7 @@ const Home = () => {
 
     
   return (
-   <main className="md:h-[100rem] xl:w-[53rem]  bg-[#030303] h-[46rem] mt-24 p-8  mx-8" >
+   <main className="md:h-[100rem]  xl:w-[53rem]  bg-[#030303]  mt-24 p-8  mx-8" >
     <Lightbox images={makeupArtistImages} />
     <Testimony/>
     <Packages/>
