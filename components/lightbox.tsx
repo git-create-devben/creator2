@@ -35,8 +35,8 @@ const Lightbox: React.FC<LightboxProps> = ({ images }) => {
            <div className="thumbnail-container">
         {images.map((image, index) => (
           <Image
-          width={80}
-          height={50}
+          width={100}
+          height={100}
             key={index}
             src={image}
             alt={`Thumbnail ${index + 1}`}
