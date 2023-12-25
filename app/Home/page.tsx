@@ -1,7 +1,8 @@
 "use client"
 
 import Lightbox from "@/components/lightbox";
-// import Testimony from "@/components/testimony/testimony";
+import Testimony from "@/components/testimony/testimony";
+import Packages from "@/components/packages/package";
 
 const Home = () => {
 
@@ -16,9 +17,10 @@ const Home = () => {
 
     
   return (
-   <main className="md:h-screen xl:w-[53rem]  bg-[#030303] h-[46rem] mt-24 p-8  mx-8">
+   <main className="md:h-[100rem] xl:w-[53rem]  bg-[#030303] h-[46rem] mt-24 p-8  mx-8" >
     <Lightbox images={makeupArtistImages} />
-    {/* <Testimony/> */}
+    <Testimony/>
+    <Packages/>
    </main>
   )
 }
