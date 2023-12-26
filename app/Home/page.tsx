@@ -3,6 +3,7 @@
 import Lightbox from "@/components/lightbox";
 import Testimony from "@/components/testimony/testimony";
 import Packages from "@/components/packages/package";
+import Mobilenav from '@/app/ui/navs/mobilenav'
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
     
   return (
    <main className="md:h-[100rem]  xl:w-[53rem]  bg-[#030303]  mt-24 p-8  mx-8" >
+    <Mobilenav/>
     <Lightbox images={makeupArtistImages} />
     <Testimony/>
     <Packages/>
