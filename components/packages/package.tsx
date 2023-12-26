@@ -30,7 +30,7 @@ export default function Packages() {
             alt="package image"
             width={400}
             height={100}
-            className=""
+            className="m-auto block"
           />
           <div className="leading-3 text-center mt-10">
             <h3 className="text-lg text-[#eeeeeed8]">Party Makeup Package</h3>
@@ -66,7 +66,7 @@ export default function Packages() {
             alt="package image"
             width={400}
             height={100}
-            className=""
+            className="m-auto block"
           />
           <div className="leading-3 text-center mt-10">
             <h3 className="text-lg text-[#eeeeeed8]">

@@ -18,19 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="body">
-
-       
-        <div className="flex h-screen">
-          {/* Fixed Side Navigation */}
-          <div className="flex-none hidden md:block">
+        <div className="body flex md:justify-center flex-col w-[100%] h-[100vh]  md:gap-18 md:flex-row ">
+          <aside className="flex-none aside bg-fixed sticky h-[100vh] hidden md:block ">
             <Desktopnav />
-          </div>
-          {/* Scrollable Content Container */}
-          <main className=" p-4">
+          </aside>
+          <div className="h-[100vh] ">
             {children}
-          </main>
-        </div>
+          </div>
         </div>
       </body>
     </html>
